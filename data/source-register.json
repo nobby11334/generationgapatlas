@@ -1,0 +1,94 @@
+{
+  "as_of": "2026-11-12",
+  "scope": "公的会議資料・関連予算・交付事業の更新資料を追うための出典台帳。原票が公開されていても未転記の詳細は未反映と記載。",
+  "documents": [
+    {
+      "id": "doc-01",
+      "date": "2026-04-10",
+      "title": "第3回関係閣僚会議・決定と施策別表",
+      "kind": "政策決定",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/gijisidai.html",
+      "coverage": "参照・主要KPI収録"
+    },
+    {
+      "id": "doc-02",
+      "date": "2026-04-10",
+      "title": "2026年支援プログラムKPI別表",
+      "kind": "KPI",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/pdf/20260410_siryou4.pdf",
+      "coverage": "29件収録"
+    },
+    {
+      "id": "doc-03",
+      "date": "2026-04-10",
+      "title": "2026年度関連施策集",
+      "kind": "政策事業",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "coverage": "施策28項目・予算29項目を抽出"
+    },
+    {
+      "id": "doc-04",
+      "date": "2026-03-31",
+      "title": "2026年度地域交付金決定一覧",
+      "kind": "交付",
+      "url": "https://www.cao.go.jp/shushoku_hyogaki/suishin/pdf/kettei-r08.pdf",
+      "coverage": "152事業を抽出"
+    },
+    {
+      "id": "doc-05",
+      "date": "2026-10-27",
+      "title": "第8回全国プラットフォーム：資料1 新プログラム",
+      "kind": "進捗",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/suishin_platform/dai8/gijishidai.html",
+      "coverage": "本文の数値未転記"
+    },
+    {
+      "id": "doc-06",
+      "date": "2026-10-27",
+      "title": "第8回全国プラットフォーム：資料2 今後の進め方",
+      "kind": "進捗",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/suishin_platform/dai8/gijishidai.html",
+      "coverage": "本文の数値未転記"
+    },
+    {
+      "id": "doc-07",
+      "date": "2026-10-27",
+      "title": "第8回全国プラットフォーム：資料3 個別施策の取組状況",
+      "kind": "施策執行",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/suishin_platform/dai8/gijishidai.html",
+      "coverage": "本文の数値未転記"
+    },
+    {
+      "id": "doc-08",
+      "date": "2026-10-27",
+      "title": "第8回全国プラットフォーム：資料4 KPIフォローアップ",
+      "kind": "KPI",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/suishin_platform/dai8/gijishidai.html",
+      "coverage": "本文の数値未転記"
+    },
+    {
+      "id": "doc-09",
+      "date": "2026-10-27",
+      "title": "第8回全国プラットフォーム：資料5 支援ニーズ等の調査",
+      "kind": "調査",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/suishin_platform/dai8/gijishidai.html",
+      "coverage": "本文の数値未転記"
+    },
+    {
+      "id": "doc-10",
+      "date": "2026-11-09",
+      "title": "第1回関係閣僚会議幹事会・全国プラットフォームを受けた対応",
+      "kind": "政策対応",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/kanjikai/dai1/gijisidai.html",
+      "coverage": "公開資料を登録、個別内容は未転記"
+    },
+    {
+      "id": "doc-11",
+      "date": "2025-06-03",
+      "title": "新たな支援プログラムの基本的枠組み",
+      "kind": "政策",
+      "url": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/index.html",
+      "coverage": "元資料への導線"
+    }
+  ]
+}
