@@ -38,3 +38,16 @@ GitHub Actions (.github/workflows/deploy.yml) が main push 時にGitHub Pages�
 5. 機械検証済みの公開データ更新ワークフローを追加。
 
 政治的立場や特定世代の優劣を示すことを目的とせず、検証可能な事実と政策選択肢を提供します。
+
+## 2026-11-12 データ拡充
+| ファイル | 範囲 | 注意 |
+|---|---|---|
+| `data/kpis.json` | 2026年4月公表の政府KPI 29指標、基準値、目標値、定義 | 2026年10月27日フォローアップの改定値は未反映・照合作業が必要 |
+| `data/wages.json` | 男性一般労働者の実質月例賃金・4出生年代×6年齢階級（欠損はnull） | 全世代の生涯所得の推計ではない |
+| `data/employment-history.json` | 2019〜2024年の就職氷河期中心層の雇用状態5系列 | 役員増等を含むため、政策の純効果とは解釈しない |
+| `data/funding.json` | 予算・交付決定など7件 | 内数、重複、補正／当初、支出済額を厳格に区分 |
+
+出典：[政府KPI別表](https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/pdf/20260410_siryou4.pdf)、[2019〜2023年特別集計](https://www.mhlw.go.jp/jigyo_shiwake/dl/r06_jigyou04a_day1.pdf)、[2025年政府基本方針](https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/pdf/20250603_kettei.pdf)、[地域交付金・2026年3月交付決定](https://www.cao.go.jp/shushoku_hyogaki/suishin/pdf/kettei-r08.pdf)、[2026年政策別予算](https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf)。
+
+### カバレッジの限界
+「完全網羅」は現状達成していません。政府の全施策、全年度・全自治体の執行額、正規・非正規を含む全年代の賃金・資産系列、2026年10月の最新KPI結果については未完成です。公開データの無い項目は推測で埋めず、未収録・未公開・照合未了を区別する必要があります。特に予算額と支出額の合算は行っていません。
