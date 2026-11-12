@@ -17,7 +17,7 @@ def main():
       for side,rect in (("L",(0,0,p.width/2,p.height)),("R",(p.width/2,0,p.width,p.height))):
         segment=p.crop(rect)
         tables=segment.extract_tables(table_settings={"vertical_strategy":"lines","horizontal_strategy":"lines","snap_tolerance":4,"join_tolerance":4})
-        num=0
+        num=0; last_project=None
         for table in tables:
           for row in table:
             if len(row)==4 and row[0] is None: row=row[1:]
@@ -27,7 +27,8 @@ def main():
               if not gov or gov in ("地方公共団体名","地方公共団体名交付対象事業の名称"):continue
               if not gov.endswith(("市","区","町","村")):continue
               if expense not in ("―","－","-","—",""):continue
-              result.append({"municipality":gov,"participating_project":project or None,"source_page":index+1,"expense_note":"連携自治体に金額の重複計上なし。交付金執行は実施主体側。"})
+              if project and '実施主体' in project:last_project=project
+              result.append({"municipality":gov,"participating_project":project or last_project,"source_page":index+1,"expense_note":"連携自治体に金額の重複計上なし。交付金執行は実施主体側。"})
               num+=1
         diag.append({"page":index+1,"side":side,"found":num})
   print("diagnostics",json.dumps(diag,ensure_ascii=False),"total",len(result),"unique",len(set(x["municipality"] for x in result)))
