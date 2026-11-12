@@ -1,0 +1,1229 @@
+{
+  "source": "https://www.cao.go.jp/shushoku_hyogaki/suishin/pdf/kettei-r08.pdf",
+  "official_snapshot": "2026-04-01",
+  "published": "2026-03-31",
+  "data_kind": "project_expense_planned",
+  "currency_unit": "thousand_JPY",
+  "records": 152,
+  "municipality_notes": "300 recipient municipalities includes cooperating municipalities in wide-area projects; the project list only names lead implementing bodies.",
+  "total_expense_thousand_yen": 2805401,
+  "notes": "事業費。国の交付金額21.4億円とは異なり、執行実績・支払額でもない。",
+  "projects": [
+    {
+      "municipality": "北海道",
+      "project": "就職氷河期世代等キャリア再構築支援事業",
+      "budget_thousand_yen": 10304,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "青森県",
+      "project": "地域就職氷河期世代等支援加速化事業",
+      "budget_thousand_yen": 9523,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "宮城県",
+      "project": "中高年等就職支援事業",
+      "budget_thousand_yen": 43836,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "秋田県",
+      "project": "就職氷河期世代等人材確保・定着推進事業",
+      "budget_thousand_yen": 8477,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "秋田県",
+      "project": "職業訓練受講促進事業",
+      "budget_thousand_yen": 6147,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "秋田県",
+      "project": "ひきこもり理解促進・相談支援事業",
+      "budget_thousand_yen": 1278,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "山形県",
+      "project": "地域若者サポートステーション事業",
+      "budget_thousand_yen": 8980,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "福島県",
+      "project": "地域就職氷河期世代等支援事業",
+      "budget_thousand_yen": 24144,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "栃木県",
+      "project": "栃木県就職氷河期世代等就労支援事業",
+      "budget_thousand_yen": 3406,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "群馬県",
+      "project": "群馬県若者等自立支援事業",
+      "budget_thousand_yen": 5028,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "埼玉県",
+      "project": "埼玉県版就職氷河期世代等の就職・職場定着支援事業",
+      "budget_thousand_yen": 19231,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "埼玉県",
+      "project": "若者等自立支援事業",
+      "budget_thousand_yen": 20367,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "千葉県",
+      "project": "ミドル世代活躍支援事業",
+      "budget_thousand_yen": 21125,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "東京都",
+      "project": "デジタルスキル習得チャレンジ支援事業",
+      "budget_thousand_yen": 381827,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "神奈川県",
+      "project": "就職氷河期世代等支援事業",
+      "budget_thousand_yen": 76978,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "新潟県",
+      "project": "無業者就労準備支援事業",
+      "budget_thousand_yen": 7380,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "新潟県",
+      "project": "無業者等職場実習受入促進・支援事業",
+      "budget_thousand_yen": 13624,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "富山県",
+      "project": "正社員求職お仕事フェア事業",
+      "budget_thousand_yen": 5940,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "福井県",
+      "project": "就職氷河期世代活躍応援事業",
+      "budget_thousand_yen": 36622,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "山梨県",
+      "project": "ひきこもり支援職業体験事業",
+      "budget_thousand_yen": 3451,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "山梨県",
+      "project": "ケース会議専門家派遣事業",
+      "budget_thousand_yen": 673,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "長野県",
+      "project": "孤独・孤立対策推進事業",
+      "budget_thousand_yen": 7174,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "長野県",
+      "project": "ライフスタイルに合わせた多様な働き方創出事業",
+      "budget_thousand_yen": 10070,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "岐阜県",
+      "project": "伴走型ひきこもり支援事業",
+      "budget_thousand_yen": 1901,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "岐阜県",
+      "project": "岐阜県若者サポートステーション事業",
+      "budget_thousand_yen": 8710,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "静岡県",
+      "project": "ひきこもり対策推進事業",
+      "budget_thousand_yen": 7200,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "愛知県",
+      "project": "正規雇用転換支援事業",
+      "budget_thousand_yen": 10549,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "三重県",
+      "project": "就職氷河期世代等活躍応援事業",
+      "budget_thousand_yen": 20768,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "滋賀県",
+      "project": "滋賀県地域若者サポートステーション支援事業",
+      "budget_thousand_yen": 6728,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "京都府",
+      "project": "就職氷河期世代等安定雇用促進事業",
+      "budget_thousand_yen": 211134,
+      "wide_area": true,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "京都府",
+      "project": "京都府つながる・学ぶ・働く総合支援事業",
+      "budget_thousand_yen": 49844,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "京都府",
+      "project": "リスキリングによる職場定着促進事業",
+      "budget_thousand_yen": 20000,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "京都府",
+      "project": "「チーム絆」地域チーム訪問支援事業",
+      "budget_thousand_yen": 20122,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "大阪府",
+      "project": "中高年層集中支援プロジェクト事業",
+      "budget_thousand_yen": 25738,
+      "wide_area": true,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "兵庫県",
+      "project": "おためし企業体験inHYOGO",
+      "budget_thousand_yen": 7063,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "兵庫県",
+      "project": "ミドル世代・シニア世代就労支援事業",
+      "budget_thousand_yen": 17678,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "兵庫県",
+      "project": "ニート就労支援ネットワーク事業",
+      "budget_thousand_yen": 1180,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "兵庫県",
+      "project": "就職氷河期世代や若年無業者への就労促進事業",
+      "budget_thousand_yen": 10058,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "兵庫県",
+      "project": "ひきこもりの居場所及び居場所へのつなぎ資源確保事業",
+      "budget_thousand_yen": 5709,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "兵庫県",
+      "project": "こころの健康電話相談事業",
+      "budget_thousand_yen": 434,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "奈良県",
+      "project": "地域若者サポートステーション強化事業",
+      "budget_thousand_yen": 2393,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "鳥取県",
+      "project": "地域若者サポートステーション事業の充実・強化事業",
+      "budget_thousand_yen": 20798,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "鳥取県",
+      "project": "ひきこもり支援推進事業（職場体験事業）",
+      "budget_thousand_yen": 17531,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "鳥取県",
+      "project": "孤独・孤立に関する相談窓口運営事業",
+      "budget_thousand_yen": 22484,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "島根県",
+      "project": "若年・中高年者世代活躍応援未就業者就職促進事業",
+      "budget_thousand_yen": 18874,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "広島県",
+      "project": "多様性を受容する職場づくり事業",
+      "budget_thousand_yen": 81090,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 2
+    },
+    {
+      "municipality": "山口県",
+      "project": "山口しごとセンター管理運営事業",
+      "budget_thousand_yen": 6300,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "山口県",
+      "project": "地域若者サポートステーション機能強化事業",
+      "budget_thousand_yen": 12867,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "山口県",
+      "project": "女性デジタル人材育成事業",
+      "budget_thousand_yen": 33653,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "山口県",
+      "project": "県外キャリア人材確保応援事業",
+      "budget_thousand_yen": 7066,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "香川県",
+      "project": "地域若者サポートステーション事業の充実・強化",
+      "budget_thousand_yen": 3710,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "香川県",
+      "project": "ひきこもり対策事業（ひきこもりサポーターを活用した多様な居場所の設置）",
+      "budget_thousand_yen": 20760,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "愛媛県",
+      "project": "就職氷河期世代等就労支援事業",
+      "budget_thousand_yen": 7365,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "愛媛県",
+      "project": "就職氷河期世代を含むひきこもり支援推進事業",
+      "budget_thousand_yen": 4284,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "高知県",
+      "project": "高知県就職支援相談センター事業に係る就職氷河期世代等支援",
+      "budget_thousand_yen": 27296,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "高知県",
+      "project": "ひきこもり対策推進事業",
+      "budget_thousand_yen": 22540,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "高知県",
+      "project": "若者サポートステーション事業に係る就職氷河期世代支援",
+      "budget_thousand_yen": 27207,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "高知県",
+      "project": "高知県女性就労支援事業に係る氷河期世代等支援",
+      "budget_thousand_yen": 26839,
+      "wide_area": true,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "福岡県",
+      "project": "「技専校って何？」魅力発信プロジェクト",
+      "budget_thousand_yen": 2877,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "福岡県",
+      "project": "ひきこもり対策推進事業",
+      "budget_thousand_yen": 14866,
+      "wide_area": true,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "福岡県",
+      "project": "メタバース活用就労支援事業",
+      "budget_thousand_yen": 10722,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "福岡県",
+      "project": "就職氷河期世代就職支援強化事業",
+      "budget_thousand_yen": 50871,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "福岡県",
+      "project": "無業者等に対する職業的自立支援事業（若者サポートステーション）",
+      "budget_thousand_yen": 36038,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "佐賀県",
+      "project": "就職氷河期世代・中高年層就職支援事業",
+      "budget_thousand_yen": 7892,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "熊本県",
+      "project": "くまもと型社会参加・就労支援事業",
+      "budget_thousand_yen": 97236,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "大分県",
+      "project": "就職氷河期世代等ひきこもり支援事業",
+      "budget_thousand_yen": 11526,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "宮崎県",
+      "project": "正規雇用チャレンジ支援事業",
+      "budget_thousand_yen": 13164,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "鹿児島県",
+      "project": "長期無業者等就職促進・定着支援事業",
+      "budget_thousand_yen": 12569,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "沖縄県",
+      "project": "沖縄県キャリアセンターにおけるミドル世代支援",
+      "budget_thousand_yen": 5069,
+      "wide_area": false,
+      "category": "prefecture",
+      "source_page": 3
+    },
+    {
+      "municipality": "札幌市",
+      "project": "ワークトライアル事業",
+      "budget_thousand_yen": 96000,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "仙台市",
+      "project": "親なきあと生活設計事業",
+      "budget_thousand_yen": 12740,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "仙台市",
+      "project": "ひきこもり支援体制強化事業",
+      "budget_thousand_yen": 28628,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "さいたま市",
+      "project": "若年者等職業的自立支援事業",
+      "budget_thousand_yen": 6839,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "千葉市",
+      "project": "就活応援スクール事業",
+      "budget_thousand_yen": 8963,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "横浜市",
+      "project": "令和８年度就職氷河期世代向け合同就職面接会",
+      "budget_thousand_yen": 3960,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "川崎市",
+      "project": "就職氷河期世代等応援事業",
+      "budget_thousand_yen": 4540,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "相模原市",
+      "project": "就職氷河期世代就労支援事業",
+      "budget_thousand_yen": 4593,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "新潟市",
+      "project": "就労準備支援事業",
+      "budget_thousand_yen": 238,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "新潟市",
+      "project": "新潟地域若者サポートステーション事業",
+      "budget_thousand_yen": 18019,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "浜松市",
+      "project": "浜松市地域若者サポートステーションはままつ就職氷河期世代支援事業",
+      "budget_thousand_yen": 1735,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "浜松市",
+      "project": "浜松市地域若者サポートステーションはままつ事業",
+      "budget_thousand_yen": 6170,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "名古屋市",
+      "project": "ひきこもり支援事業の充実・強化",
+      "budget_thousand_yen": 3220,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "京都市",
+      "project": "多様な担い手活躍プラットフォーム",
+      "budget_thousand_yen": 23751,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "神戸市",
+      "project": "キャリア相談・就労支援事業（ミドル・シニア）",
+      "budget_thousand_yen": 45000,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "岡山市",
+      "project": "就職・転職サポート事業",
+      "budget_thousand_yen": 20902,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "広島市",
+      "project": "しごとの相談カフェiroha",
+      "budget_thousand_yen": 49020,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "北九州市",
+      "project": "就職氷河期世代等就業支援事業",
+      "budget_thousand_yen": 109746,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "北九州市",
+      "project": "地域の人事部支援事業(人材バンク運営業務)",
+      "budget_thousand_yen": 34202,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "福岡市",
+      "project": "ミドル世代就職支援事業",
+      "budget_thousand_yen": 17879,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 3
+    },
+    {
+      "municipality": "北海道旭川市",
+      "project": "困難や孤独による不安や悩み、就労のハードルの解消事業",
+      "budget_thousand_yen": 9745,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "北海道苫小牧市",
+      "project": "みんなの就活応援事業",
+      "budget_thousand_yen": 18926,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "北海道江別市",
+      "project": "就職氷河期世代等支援事業",
+      "budget_thousand_yen": 4797,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "北海道鷹栖町",
+      "project": "生きがい就労等支援事業",
+      "budget_thousand_yen": 4178,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "北海道弟子屈町",
+      "project": "てしかが就職・就業支援事業",
+      "budget_thousand_yen": 6340,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "岩手県盛岡市",
+      "project": "盛岡市ミドル世代就職支援事業",
+      "budget_thousand_yen": 3833,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "岩手県一関市",
+      "project": "就労体験事業",
+      "budget_thousand_yen": 4455,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "福島県郡山市",
+      "project": "郡山市多様な働き方支援事業",
+      "budget_thousand_yen": 6465,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "福島県白河市",
+      "project": "白河市就職氷河期世代等ひきこもり支援社会参加推進事業",
+      "budget_thousand_yen": 4560,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "千葉県船橋市",
+      "project": "ふなばし地域若者等就労及び自立支援事業",
+      "budget_thousand_yen": 12836,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "千葉県松戸市",
+      "project": "まつど地域就職氷河期世代等就労支援事業",
+      "budget_thousand_yen": 20529,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "千葉県習志野市",
+      "project": "ふなばし地域若者等就労及び自立支援事業",
+      "budget_thousand_yen": 1766,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "千葉県柏市",
+      "project": "若者の職業自立支援事業",
+      "budget_thousand_yen": 12996,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "千葉県柏市",
+      "project": "悩み相談AIチャットシステム事業",
+      "budget_thousand_yen": 7722,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "千葉県白井市",
+      "project": "就労支援重点対策事業",
+      "budget_thousand_yen": 6624,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都港区",
+      "project": "ひきこもり相談窓口事業",
+      "budget_thousand_yen": 32385,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都港区",
+      "project": "ひきこもり当事者の居場所づくり支援等事業",
+      "budget_thousand_yen": 12027,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都港区",
+      "project": "ひきこもり支援事業",
+      "budget_thousand_yen": 262,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都品川区",
+      "project": "孤独・孤立対策推進事業",
+      "budget_thousand_yen": 15283,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都豊島区",
+      "project": "ひきこもり支援事業",
+      "budget_thousand_yen": 23999,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都板橋区",
+      "project": "ひきこもり等生きづらさサポート情報発信事業",
+      "budget_thousand_yen": 1500,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都練馬区",
+      "project": "就職氷河期世代の実態把握調査",
+      "budget_thousand_yen": 6279,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都江戸川区",
+      "project": "誰一人取り残さない社会参加等支援推進事業",
+      "budget_thousand_yen": 19000,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都江戸川区",
+      "project": "みんなの就労マネジメントセンター事業",
+      "budget_thousand_yen": 46682,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都立川市",
+      "project": "立川市孤独・孤立対策就労支援事業",
+      "budget_thousand_yen": 9867,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "東京都日野市",
+      "project": "ひきこもり支援事業",
+      "budget_thousand_yen": 262,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "神奈川県藤沢市",
+      "project": "就労支援セミナー・資格取得講座等事業",
+      "budget_thousand_yen": 9036,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "神奈川県藤沢市",
+      "project": "若年者等就労支援事業（ユースワークふじさわ）",
+      "budget_thousand_yen": 16986,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "神奈川県藤沢市",
+      "project": "若者等自立サポート事業",
+      "budget_thousand_yen": 13723,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "新潟県長岡市",
+      "project": "長岡市就労困難者支援事業",
+      "budget_thousand_yen": 12442,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "長野県上田市",
+      "project": "無業者等に対する自立・就業支援事業",
+      "budget_thousand_yen": 2615,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "岐阜県美濃加茂市",
+      "project": "アウトリーチ等を用いた伴走的なつながりづくり事業",
+      "budget_thousand_yen": 7351,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "岐阜県美濃加茂市",
+      "project": "社会参加支援による役割と出番づくり事業",
+      "budget_thousand_yen": 1767,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "静岡県沼津市",
+      "project": "沼津市・清水町合同就職面接会開催事業",
+      "budget_thousand_yen": 1976,
+      "wide_area": true,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "愛知県豊川市",
+      "project": "豊川市若年者就労支援事業",
+      "budget_thousand_yen": 744,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "愛知県豊明市",
+      "project": "就職氷河期世代等に対する段階的就労・定着支援事業",
+      "budget_thousand_yen": 15546,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "三重県伊勢市",
+      "project": "若者等就職総合支援業務委託",
+      "budget_thousand_yen": 3343,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "滋賀県栗東市",
+      "project": "就職氷河期世代等支援推進事業",
+      "budget_thousand_yen": 5000,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "滋賀県東近江市",
+      "project": "東近江市しごとづくり応援センター",
+      "budget_thousand_yen": 5128,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "京都府精華町",
+      "project": "精華町社会参加つながり事業",
+      "budget_thousand_yen": 3595,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "大阪府泉佐野市",
+      "project": "中高年世代等オンライン就労支援事業",
+      "budget_thousand_yen": 14181,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "大阪府東大阪市",
+      "project": "就職氷河期世代等就労支援事業",
+      "budget_thousand_yen": 6651,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県尼崎市",
+      "project": "コミュニティファームにおける居場所づくり事業",
+      "budget_thousand_yen": 3300,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県尼崎市",
+      "project": "ひきこもり等支援事業",
+      "budget_thousand_yen": 5055,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県宝塚市",
+      "project": "若者・就職氷河期世代キャリア形成支援事業",
+      "budget_thousand_yen": 1182,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県川西市",
+      "project": "地域就職氷河期世代等就労支援事業",
+      "budget_thousand_yen": 7529,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県宍粟市",
+      "project": "地域就職氷河期世代等支援型無料職業紹介業務",
+      "budget_thousand_yen": 14798,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県宍粟市",
+      "project": "地域就職氷河期世代等社会参加対策推進事業",
+      "budget_thousand_yen": 7383,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県猪名川町",
+      "project": "就職氷河期世代就労サポート事業",
+      "budget_thousand_yen": 475,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 4
+    },
+    {
+      "municipality": "兵庫県香美町",
+      "project": "ひきこもり者等就労支援事業",
+      "budget_thousand_yen": 141,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "兵庫県新温泉町",
+      "project": "新温泉町ひきこもり相談支援事業",
+      "budget_thousand_yen": 3800,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "奈良県奈良市",
+      "project": "奈良市ワーク・ライフ・バランス推進事業",
+      "budget_thousand_yen": 891,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "奈良県奈良市",
+      "project": "奈良市DX人材養成事業",
+      "budget_thousand_yen": 7737,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "奈良県奈良市",
+      "project": "合同企業説明会等開催事業",
+      "budget_thousand_yen": 2251,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "奈良県奈良市",
+      "project": "人材確保支援事業",
+      "budget_thousand_yen": 9117,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "広島県呉市",
+      "project": "呉しごと相談館",
+      "budget_thousand_yen": 1235,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "広島県東広島市",
+      "project": "東広島市就職氷河期世代等個別支援事業",
+      "budget_thousand_yen": 4907,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "広島県坂町",
+      "project": "坂町ひきこもり支援",
+      "budget_thousand_yen": 4560,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "香川県高松市",
+      "project": "若者等の孤独・孤立対策推進事業",
+      "budget_thousand_yen": 21358,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "高知県高知市",
+      "project": "就職氷河期世代等への無料職業紹介事業",
+      "budget_thousand_yen": 3935,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "福岡県久留米市",
+      "project": "久留米で正社員就職応援事業",
+      "budget_thousand_yen": 6488,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "福岡県宗像市",
+      "project": "市内事業者人材確保支援事業",
+      "budget_thousand_yen": 2160,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    },
+    {
+      "municipality": "福岡県宗像市",
+      "project": "就労相談及び就労支援セミナー運営事業",
+      "budget_thousand_yen": 11264,
+      "wide_area": false,
+      "category": "municipality",
+      "source_page": 5
+    }
+  ]
+}
