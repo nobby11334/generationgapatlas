@@ -151,3 +151,11 @@ GitHub Actions (.github/workflows/deploy.yml) が main push 時にGitHub Pages�
 - 2012年 [全国第40表](https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=datalist&month=0&page=1&tclass1=000001059806&tclass2=000001059807&toukei=00200532&tstat=000001058052&year=20120)
 - 2022年 [全国第40表](https://www.e-stat.go.jp/dbview?sid=0004008157)
 - 物価指数 [日本銀行の全国CPI長期表](https://www.boj.or.jp/about/education/oshiete/history/j12.htm)
+
+## 所得分布・二極化分析（2026年11月）
+- `data/income-distribution-2022-national.json`：2022年就業構造基本調査（総務省）表07100の全国有業者（全年齢）の主な仕事からの年間収入・収益について、13所得階級を実人数で登録。所得階級の判明者64,885,900人、不詳2,174,500人、合計67,060,400人で照合。
+- 「所得分布・二極化」タブに13所得階級ヒストグラム、人数/構成比切替、低所得・中間層・高所得の閾値調整、中央値の所属階級、算出可能指標と未算出指標を追加。
+- 出典：[e-Stat 表07100](https://www.e-stat.go.jp/dbview?sid=0004008173)（[確認用表](https://ecitizen.jp/Statdb/StatsData/0004008173)）。
+- **重要**：この収入分布は全国全年齢であり、氷河期世代や前後世代の分布ではありません。初期の探索的比較にのみ用い、世代間の二極化が確認されたとは記さないこと。
+- 年齢×所得×学歴は[e-Stat表04300](https://www.e-stat.go.jp/dbview?sid=0004008181)、年齢×雇用形態×所得は[e-Stat表04500](https://www.e-stat.go.jp/dbview?sid=0004008159)に原票がある。今後はそのクロス集計を検証し、1974〜1983年生まれの厳密な出生年集計とは区別して導入する。
+- 開放上位階級（1500万円以上）と所得不詳により、集計された階級数だけで厳密な平均、P90/P10、ジニ係数は推定できないため「未算出」と明示。
