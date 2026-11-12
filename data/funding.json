@@ -1,0 +1,78 @@
+{
+  "as_of": "2026-11-12",
+  "entries": [
+    {
+      "id": "grant-2026",
+      "name": "地域就職氷河期世代等支援推進交付金",
+      "amount_oku": 21.5,
+      "kind": "2025年度補正予算・計上額",
+      "fiscal_year": "2025年度補正",
+      "audience": "就職氷河期世代等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年度に実施する事業。交付決定額とは異なる。"
+    },
+    {
+      "id": "grant-allocated",
+      "name": "同交付金・交付決定",
+      "amount_oku": 21.4,
+      "kind": "2026年3月31日公表・交付決定",
+      "fiscal_year": "2026年度実施",
+      "audience": "300自治体／152事業",
+      "source": "https://www.cao.go.jp/shushoku_hyogaki/suishin/pdf/kettei-r08.pdf",
+      "note": "事業費総額28.1億円。交付決定額であり、執行・決算実績ではない。予算計上額21.5億円と足し合わせない。",
+      "projects": 152,
+      "municipalities": 300,
+      "project_total_oku": 28.1
+    },
+    {
+      "id": "hello-work",
+      "name": "中高年層ハローワーク専門窓口",
+      "amount_oku": 22,
+      "kind": "2026年度事業資料記載額",
+      "fiscal_year": "2026年度",
+      "audience": "就職氷河期世代を含む中高年層",
+      "source": "https://www.mhlw.go.jp/content/11601000/001752233.pdf",
+      "note": "対象は氷河期世代に限定されない。決算・執行額ではない。"
+    },
+    {
+      "id": "education",
+      "name": "教育訓練給付金",
+      "amount_oku": 426.8,
+      "kind": "2026年度関連施策集・予算額（内数）",
+      "fiscal_year": "2026年度",
+      "audience": "対象要件を満たす雇用保険関係者等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "一般制度であり、氷河期世代専用額ではない。関連施策に列挙された金額を合計すると重複するおそれがある。"
+    },
+    {
+      "id": "leave",
+      "name": "教育訓練休暇給付金",
+      "amount_oku": 129,
+      "kind": "2026年度関連施策集・予算額（内数）",
+      "fiscal_year": "2026年度",
+      "audience": "雇用保険被保険者等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "一般制度。氷河期世代分の支出ではない。"
+    },
+    {
+      "id": "loan",
+      "name": "リ・スキリング等教育訓練支援融資",
+      "amount_oku": 2.1,
+      "kind": "2026年度関連施策集・予算額（内数）",
+      "fiscal_year": "2026年度",
+      "audience": "融資対象者",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "融資制度の予算額。給付金や実際の貸付総額ではない。"
+    },
+    {
+      "id": "mof-category",
+      "name": "多様な人材の活躍促進等",
+      "amount_oku": 492,
+      "kind": "2026年度社会保障関係予算・広い区分",
+      "fiscal_year": "2026年度",
+      "audience": "氷河期世代を含む幅広い人材・障害者支援・育成就労制度等",
+      "source": "https://www.mof.go.jp/public_relations/finance/202605/202605d.html",
+      "note": "上記個別施策と内包・重複し得る。氷河期専用予算ではない。"
+    }
+  ]
+}
