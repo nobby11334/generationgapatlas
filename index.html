@@ -43,7 +43,32 @@
 </div>
 </div>
 <div class="card section"><h2>雇用形態別の格差を比較</h2><p class="small muted">同一年齢・同性別で、正規雇用と非正規雇用の分布を比較します。両者は働く時間・職種・経験年数・就業希望などが異なるため、差を全て就職氷河期による不利益と解釈することはできません。</p><div id="distJobs" class="scroll"></div></div>
-<div class="card section"><h2>「二極化」をどう判定するか</h2>
+<div class="card section">
+<span class="pill green">2002・2012・2022年／原票照合済み</span>
+<h2>20年間で所得の両端は増えたのか</h2>
+<p class="small muted">各年の就業構造基本調査を共通15所得階級に統一。選択した年齢帯について2002・2012・2022年の有業者または正規雇用者の構成比を横断比較します。中間層（300〜799万円）を中心に、低所得（200万円未満）、高所得（1000万円以上）の変化を併記します。</p>
+<div class="controls">
+<label class="control">比較方法<select id="histMode"><option value="sameage">同じ年齢帯を3時点比較</option><option value="cohort">出生年代の近似追跡（10歳ずらす）</option></select></label>
+<label class="control">基準の年齢帯<select id="histAge">
+<option>20～24歳</option><option>25～29歳</option><option>30～34歳</option><option>35～39歳</option><option selected>40～44歳</option><option>45～49歳</option><option>50～54歳</option><option>55～59歳</option><option>60～64歳</option><option>65～69歳</option></select></label>
+<label class="control">性別<select id="histSex"><option value="all">男女計</option><option value="male">男性</option><option value="female">女性</option></select></label>
+<label class="control">雇用形態<select id="histJob"><option value="all">有業者全体</option><option value="regular">正規雇用のみ</option></select></label>
+</div>
+<div id="histCohortNote" class="notice"></div>
+<h3 style="margin-top:18px">所得階級別・3時点分布</h3>
+<div id="histChart" class="scroll"><div class="empty">統計を読み込み中です</div></div>
+<div class="scroll section"><table><thead><tr><th>年次・対象年齢</th><th>200万円未満</th><th>300〜799万円</th><th>1000万円以上</th><th>所得不詳率</th><th>中間層の前年比較</th></tr></thead><tbody id="histRows"></tbody></table></div>
+<div class="grid section"><div class="statbox"><p class="small muted">低所得層の変化（2002→2022）</p><div id="histLowChange" class="statline"></div></div><div class="statbox"><p class="small muted">中間所得層の変化</p><div id="histMidChange" class="statline"></div></div><div class="statbox"><p class="small muted">高所得層の変化</p><div id="histHighChange" class="statline"></div></div></div>
+<div class="notice section" id="histVerdict">3時点の低・中・高所得層の変化を読み込んでいます。</div>
+<p class="source">出典：<a href="https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=datalist&page=1&tclass1=000000130002&tclass2=000000130003&toukei=00200532&tstat=000000130001&year=20020" target="_blank" rel="noopener">2002年・第41表</a> ／ <a href="https://www.e-stat.go.jp/stat-search/files?cycle=0&layout=datalist&month=0&page=1&tclass1=000001059806&tclass2=000001059807&toukei=00200532&tstat=000001058052&year=20120" target="_blank" rel="noopener">2012年・第40表</a> ／ <a href="https://www.e-stat.go.jp/dbview?sid=0004008157" target="_blank" rel="noopener">2022年・第40表</a></p>
+</div>
+<div class="card section">
+<h2>物価を考慮した「同じ購買力」の所得階層</h2>
+<p class="small muted">名目年収200万円の購買力は2002年と2022年で異なります。2022年の貨幣価値で低所得200万円、中間所得300〜800万円、高所得1000万円を定義し、2002・2012年の年額閾値にCPIを逆算します。所得階級内の分布がわからないため、階級内人数は一様分布と仮定した<strong>近似</strong>です。</p>
+<div class="controls"><label class="control">同じ比較設定を使用<select id="histRealMeasure"><option value="all">物価調整後の低・中・高所得層</option></select></label></div>
+<div id="histRealRows" class="scroll"></div>
+<p class="small muted">CPI全国総合（2020年=100）：2002年95.8、2012年94.5、2022年102.3。物価補正は所得階級の名目金額から行う参考試算で、税制・社会保険料・世帯人数・地域差を反映しません。<a href="https://www.boj.or.jp/about/education/oshiete/history/j12.htm" target="_blank" rel="noopener">日本銀行のCPI年表</a>。</p>
+</div><div class="card section"><h2>「二極化」をどう判定するか</h2>
 <p>低所得層と高所得層が同時に増え、かつ中間層が縮小しているかを、<b>同じ年齢帯の複数時点のデータ</b>で調べる必要があります。現在の2022年単年表では「分布の形」と「雇用形態別の差」は検証できますが、<b>二極化が進行したか</b>はまだ判定できません。</p>
 <p>このページは2022年の有業者の分布を事実として表示し、時系列・出生コーホートとの比較は別の分析課題として区別します。<a href="https://www.e-stat.go.jp/dbview?sid=0004008157" target="_blank" rel="noopener">原表の定義・学歴別クロス集計も確認できます。</a></p></div>
 </section><section class="page" id="threeaxes">
@@ -315,5 +340,58 @@ el('distJobs').innerHTML='<div class="scroll"><table><thead><tr><th>区分</th><
 }
 ['distAge','distSex','distJob','distCompare'].forEach(id=>el(id).addEventListener('change',render));render();
 }catch(error){el('distPlot').textContent='統計の読み込みに失敗しました：'+error.message}
+})();
+</script><script>
+(async function(){
+const el=id=>document.getElementById(id);
+const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const pts=x=>(x>=0?'+':'')+x.toFixed(1)+'pt';
+const percent=x=>(100*x).toFixed(1)+'%';
+const idxs={'20～24歳':0,'25～29歳':1,'30～34歳':2,'35～39歳':3,'40～44歳':4,'45～49歳':5,'50～54歳':6,'55～59歳':7,'60～64歳':8,'65～69歳':9};
+const CPI={2002:95.8,2012:94.5,2022:102.3};
+try{
+const response=await fetch('./data/income-distribution-history.json',{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();
+if(data.records.length!==180||data.brackets.length!==15)throw Error('180系列と15所得区分の検証失敗');
+function get(y,age,sex,job){return data.records.find(r=>r.year===y&&r.age===age&&r.sex===sex&&r.employment===job)}
+function fraction(r,i,j){return r.people_by_bracket.slice(i,j).reduce((a,b)=>a+b,0)/r.known_income_people}
+function shares(r){return [fraction(r,0,4),fraction(r,6,11),fraction(r,13,15)]}
+function cumulative(r,threshold){
+ const sum=r.known_income_people;
+ let n=0;
+ for(let i=0;i<data.brackets.length;i++){
+ const b=data.brackets[i],v=r.people_by_bracket[i];const upper=b.upper===null?Infinity:b.upper;
+ if(threshold>=upper)n+=v;
+ else if(threshold>b.lower&&upper!==Infinity)n+=v*(threshold-b.lower)/(upper-b.lower);
+ }
+ return n/sum;
+}
+function realShares(r,year){
+ let factor=CPI[year]/CPI[2022];
+ return [cumulative(r,200*factor),cumulative(r,800*factor)-cumulative(r,300*factor),1-cumulative(r,1000*factor)];
+}
+function render(){
+const mode=el('histMode').value,base=el('histAge').value,sex=el('histSex').value,job=el('histJob').value,baseI=idxs[base];
+const ages=mode==='sameage'?[base,base,base]:[data.brackets[0]&&Object.keys(idxs)[baseI-2],Object.keys(idxs)[baseI],Object.keys(idxs)[baseI+2]];
+if(mode==='cohort'&&(baseI<2||baseI>7)){
+el('histChart').innerHTML='<div class="empty">出生年代追跡には2012年に30〜59歳の基準年齢が必要です。年齢帯を30〜59歳から選択してください。</div>';el('histRows').innerHTML='';el('histRealRows').innerHTML='';el('histCohortNote').textContent='比較年齢を選び直してください。';return;
+}
+const rows=[2002,2012,2022].map((year,i)=>({year,age:ages[i],r:get(year,ages[i],sex,job)}));
+if(rows.some(x=>!x.r))throw Error('必要な年齢の分布が欠落しています');
+el('histCohortNote').textContent=mode==='sameage'
+?'各年の同じ年齢帯を比較。人口構成が変わるため、同一個人・同一出生世代の追跡ではありません。'
+:'2002年「'+ages[0]+'」、2012年「'+ages[1]+'」、2022年「'+ages[2]+'」を追う出生コーホート近似です。3調査の別々の回答者を比較し、同一個人の追跡ではありません。';
+const colors=['#547fa5','#c18c42','#33917b'];
+const max=Math.max(...rows.flatMap(x=>x.r.people_by_bracket.map(v=>100*v/x.r.known_income_people)),.0001);
+el('histChart').innerHTML='<div class="small muted" style="display:flex;gap:15px;flex-wrap:wrap;margin:12px 0">'+rows.map((x,i)=>'<span><span style="color:'+colors[i]+'">■</span> '+x.year+'年（'+x.age+'）</span>').join('')+'</div><div style="display:grid;gap:12px;min-width:630px">'+data.brackets.map((b,i)=>'<div style="display:grid;grid-template-columns:120px 1fr 67px;align-items:center;gap:10px;font-size:12px"><span>'+escapeHTML(b.label)+'</span><div style="display:grid;gap:3px">'+rows.map((x,j)=>'<div style="height:8px;background:#e8edf3;border-radius:5px"><div style="height:100%;width:'+(100*x.r.people_by_bracket[i]/x.r.known_income_people/max).toFixed(2)+'%;background:'+colors[j]+';border-radius:5px"></div></div>').join('')+'</div><b style="font-weight:500">'+rows.map(x=>(100*x.r.people_by_bracket[i]/x.r.known_income_people).toFixed(1)+'%').join('<br>')+'</b></div>').join('')+'</div>';
+const S=rows.map(x=>shares(x.r));
+el('histRows').innerHTML=rows.map((x,i)=>'<tr><td><b>'+x.year+'年</b><br><span class="small muted">'+x.age+'</span></td><td>'+percent(S[i][0])+'</td><td>'+percent(S[i][1])+'</td><td>'+percent(S[i][2])+'</td><td>'+percent(x.r.unknown_income_people/x.r.total_people)+'</td><td>'+(i?pts(100*(S[i][1]-S[i-1][1])):'―')+'</td></tr>').join('');
+const d=S[2].map((v,j)=>100*(v-S[0][j]));el('histLowChange').textContent=pts(d[0]);el('histMidChange').textContent=pts(d[1]);el('histHighChange').textContent=pts(d[2]);
+let result=d[0]>0&&d[2]>0&&d[1]<0?'低・高所得層が共に拡大し中間層が縮小する条件に該当':d[1]>=0?'中間所得層の構成比が縮小しておらず、単純な二極化条件には該当しない':'中間所得層は縮小したものの、低・高両端が同時拡大したわけではない';
+el('histVerdict').textContent='名目金額・単純な三層構成比による判定：'+result+'。これは3時点の構成比の記述であり、統計的有意差や出生時代の因果効果を検定したものではありません。';
+const z=rows.map(x=>realShares(x.r,x.year));
+el('histRealRows').innerHTML='<table><thead><tr><th>年</th><th>低所得（2022年200万円未満相当）</th><th>中間所得（300〜800万円相当）</th><th>高所得（1000万円以上相当）</th><th>推定閾値200万円相当</th></tr></thead><tbody>'+rows.map((x,i)=>'<tr><td>'+x.year+'</td><td>'+percent(z[i][0])+'</td><td>'+percent(z[i][1])+'</td><td>'+percent(z[i][2])+'</td><td>当年名目'+(200*CPI[x.year]/102.3).toFixed(1)+'万円</td></tr>').join('')+'</tbody></table><p class="small muted">階級内一様分布を仮定した粗い推計。とくに端点近くに回答者が偏ると推定値が変わります。</p>';
+}
+['histMode','histAge','histSex','histJob'].forEach(id=>el(id).addEventListener('change',render));render();
+}catch(error){el('histChart').textContent='履歴データの読み込みに失敗しました：'+error.message}
 })();
 </script></body></html>
