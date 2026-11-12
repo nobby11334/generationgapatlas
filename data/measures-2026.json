@@ -1,0 +1,288 @@
+{
+  "as_of": "2026-11-12",
+  "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+  "scope": "2026年4月10日付の関連施策集およびKPI体系を対象とする施策の粒度別カタログ。施策別の予算額は別ファイルに収録し、一般制度と氷河期専用支出の区別を維持する。",
+  "caution": "掲載は個々の自治体や事業所での支給実績・執行確認を意味しない。",
+  "measures": [
+    {
+      "id": "measure-01",
+      "pillar": "就労・処遇",
+      "name": "ハローワーク専門窓口の伴走型支援",
+      "government": "厚生労働省",
+      "goal": "相談・職業紹介から定着まで",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-02",
+      "pillar": "就労・処遇",
+      "name": "働きながら受けられるオンライン職業訓練の全国化",
+      "government": "厚生労働省",
+      "goal": "全国展開の取組",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-03",
+      "pillar": "就労・処遇",
+      "name": "求職者支援訓練",
+      "government": "厚生労働省",
+      "goal": "受講修了後の就職率をKPIとして設定",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-04",
+      "pillar": "就労・処遇",
+      "name": "人材開発支援助成金による正規転換訓練",
+      "government": "厚生労働省",
+      "goal": "企業を通じた訓練",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-05",
+      "pillar": "就労・処遇",
+      "name": "教育訓練給付金と指定講座の拡大",
+      "government": "厚生労働省・文部科学省・経済産業省",
+      "goal": "資格・技能標準との連携",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-06",
+      "pillar": "就労・処遇",
+      "name": "大学・専門学校等による処遇改善につながる講座",
+      "government": "文部科学省",
+      "goal": "社会人の受講環境改善",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-07",
+      "pillar": "就労・処遇",
+      "name": "教育訓練休暇給付金",
+      "government": "厚生労働省",
+      "goal": "訓練休暇中の所得支援",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-08",
+      "pillar": "就労・処遇",
+      "name": "リ・スキリング等教育訓練支援融資",
+      "government": "厚生労働省",
+      "goal": "教育費・生活費の融資",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-09",
+      "pillar": "就労・処遇",
+      "name": "経験交流・キャリアプラン塾",
+      "government": "厚生労働省",
+      "goal": "セカンドキャリア形成",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-10",
+      "pillar": "就労・処遇",
+      "name": "トライアル雇用助成金の拡充",
+      "government": "厚生労働省",
+      "goal": "中間的就労から一般就労へ",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-11",
+      "pillar": "就労・処遇",
+      "name": "特定求職者雇用開発助成金の拡充",
+      "government": "厚生労働省",
+      "goal": "常用雇用と定着",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-12",
+      "pillar": "就労・処遇",
+      "name": "キャリアアップ助成金による正社員転換",
+      "government": "厚生労働省",
+      "goal": "企業の正社員転換を支援",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-13",
+      "pillar": "就労・処遇",
+      "name": "介護と仕事の両立・両立支援等助成金",
+      "government": "厚生労働省",
+      "goal": "介護離職を防ぐ",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-14",
+      "pillar": "就労・処遇",
+      "name": "国家公務員中途採用者選考試験",
+      "government": "内閣官房・人事院",
+      "goal": "就職氷河期世代の採用",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-15",
+      "pillar": "就労・処遇",
+      "name": "地方公務員の中途採用促進",
+      "government": "総務省",
+      "goal": "自治体への要請",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-16",
+      "pillar": "就労・処遇",
+      "name": "教員の中途採用と研修",
+      "government": "文部科学省",
+      "goal": "免許保有者等の入職を支援",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-17",
+      "pillar": "就労・処遇",
+      "name": "農業分野への就労促進",
+      "government": "農林水産省",
+      "goal": "社会人講座・就農マッチング",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-18",
+      "pillar": "就労・処遇",
+      "name": "建設業・物流業への入職促進",
+      "government": "国土交通省",
+      "goal": "調査・検討と支援",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-19",
+      "pillar": "就労・処遇",
+      "name": "地方移住・就業・副業兼業人材支援",
+      "government": "内閣官房",
+      "goal": "地域未来交付金等と連動",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-20",
+      "pillar": "社会参加",
+      "name": "ひきこもり相談・居場所づくり",
+      "government": "厚生労働省",
+      "goal": "自治体による支援を拡大",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-21",
+      "pillar": "社会参加",
+      "name": "地域交付金を通じた交流・社会参加支援",
+      "government": "内閣府",
+      "goal": "居場所・交流・段階的支援",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-22",
+      "pillar": "社会参加",
+      "name": "地域若者サポートステーション",
+      "government": "厚生労働省",
+      "goal": "職業的自立支援・心理相談を含む",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-23",
+      "pillar": "社会参加",
+      "name": "認定就労訓練事業（中間的就労）",
+      "government": "厚生労働省",
+      "goal": "段階的な一般就労へ",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-24",
+      "pillar": "高齢期",
+      "name": "家計改善・金融経済教育",
+      "government": "厚生労働省・金融庁",
+      "goal": "資産形成と生活設計",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-25",
+      "pillar": "高齢期",
+      "name": "高年齢者雇用確保と65歳超雇用推進助成金",
+      "government": "厚生労働省",
+      "goal": "就業機会の確保",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-26",
+      "pillar": "高齢期",
+      "name": "年金による高齢期の所得保障",
+      "government": "厚生労働省",
+      "goal": "制度面の検討・保障",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-27",
+      "pillar": "高齢期",
+      "name": "公営住宅・住宅セーフティネット・居住サポート",
+      "government": "国土交通省",
+      "goal": "高齢期の住まい確保",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    },
+    {
+      "id": "measure-28",
+      "pillar": "横断",
+      "name": "属性別の実態把握・広報・政策フォローアップ",
+      "government": "内閣官房等",
+      "goal": "毎年度のKPI監視・政策見直し",
+      "status": "2026年度政策資料に掲載",
+      "effect": "事業単位の因果効果未収録",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf"
+    }
+  ]
+}
