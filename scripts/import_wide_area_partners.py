@@ -18,6 +18,8 @@ def main():
         segment=p.crop(rect)
         tables=segment.extract_tables(table_settings={"vertical_strategy":"lines","horizontal_strategy":"lines","snap_tolerance":4,"join_tolerance":4})
         num=0
+        if index==6 and side=='L':
+          print('PAGE7LEFT DEBUG',repr([(len(t),[len(r) for r in t[:5]],t[:5]) for t in tables])[:5000])
         for table in tables:
           for row in table:
             if len(row)<3:continue
