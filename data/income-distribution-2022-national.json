@@ -1,0 +1,108 @@
+{
+  "survey_year": 2022,
+  "survey_date": "2022-10-01",
+  "survey": "総務省・令和4年就業構造基本調査",
+  "table": "07100",
+  "stats_data_id": "0004008173",
+  "source": "https://www.e-stat.go.jp/dbview?sid=0004008173",
+  "republished_table": "https://ecitizen.jp/Statdb/StatsData/0004008173",
+  "unit": "persons",
+  "population": "全国の有業者（全性別・全年齢）",
+  "income_definition": "主な仕事からの年間収入・収益。給与収入だけではなく自営業等も含む。",
+  "total_persons": 67060400,
+  "known_income_persons": 64885900,
+  "unknown_income_persons": 2174500,
+  "bands": [
+    {
+      "label": "100万円未満",
+      "lower_man_yen": 0,
+      "upper_exclusive_man_yen": 100,
+      "persons": 10276400
+    },
+    {
+      "label": "100〜199万円",
+      "lower_man_yen": 100,
+      "upper_exclusive_man_yen": 200,
+      "persons": 10236300
+    },
+    {
+      "label": "200〜299万円",
+      "lower_man_yen": 200,
+      "upper_exclusive_man_yen": 300,
+      "persons": 11817400
+    },
+    {
+      "label": "300〜399万円",
+      "lower_man_yen": 300,
+      "upper_exclusive_man_yen": 400,
+      "persons": 9457800
+    },
+    {
+      "label": "400〜499万円",
+      "lower_man_yen": 400,
+      "upper_exclusive_man_yen": 500,
+      "persons": 7155300
+    },
+    {
+      "label": "500〜599万円",
+      "lower_man_yen": 500,
+      "upper_exclusive_man_yen": 600,
+      "persons": 4903300
+    },
+    {
+      "label": "600〜699万円",
+      "lower_man_yen": 600,
+      "upper_exclusive_man_yen": 700,
+      "persons": 3425500
+    },
+    {
+      "label": "700〜799万円",
+      "lower_man_yen": 700,
+      "upper_exclusive_man_yen": 800,
+      "persons": 2415300
+    },
+    {
+      "label": "800〜899万円",
+      "lower_man_yen": 800,
+      "upper_exclusive_man_yen": 900,
+      "persons": 1596600
+    },
+    {
+      "label": "900〜999万円",
+      "lower_man_yen": 900,
+      "upper_exclusive_man_yen": 1000,
+      "persons": 1034500
+    },
+    {
+      "label": "1000〜1249万円",
+      "lower_man_yen": 1000,
+      "upper_exclusive_man_yen": 1250,
+      "persons": 1471400
+    },
+    {
+      "label": "1250〜1499万円",
+      "lower_man_yen": 1250,
+      "upper_exclusive_man_yen": 1500,
+      "persons": 423400
+    },
+    {
+      "label": "1500万円以上",
+      "lower_man_yen": 1500,
+      "upper_exclusive_man_yen": null,
+      "persons": 672700
+    }
+  ],
+  "group_definition": {
+    "low": "300万円未満",
+    "middle": "300万円以上800万円未満",
+    "high": "800万円以上"
+  },
+  "cautions": [
+    "これは全国の有業者全体の所得分布であり氷河期世代の所得分布ではない。",
+    "年収不詳を除外した分母で構成比を計算する。",
+    "賃金所得だけではなく自営業・フリーランスの事業所得等の収益を含む。",
+    "ゼロ所得の無業者を含まない。",
+    "1000万円以上の開放階級があるため階級代表値を用いた平均・ジニ係数・P90/P10の厳密計算は行わない。",
+    "単年度の分布だけでは二極化の進行を証明できない。"
+  ]
+}
