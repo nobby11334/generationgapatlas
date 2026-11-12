@@ -1,0 +1,39 @@
+{
+  "as_of": "2026-11-12",
+  "cases": [
+    {
+      "id": "tokyo-2026",
+      "name": "東京都 就職氷河期世代対象職員採用試験",
+      "published": "2026-10-30",
+      "year": 2026,
+      "planned": 20,
+      "applications": 934,
+      "exam_takers": 634,
+      "final_pass": 28,
+      "competition_ratio": 22.6,
+      "previous_year": {
+        "year": 2025,
+        "planned": 20,
+        "applications": 1142,
+        "exam_takers": 698,
+        "final_pass": 35,
+        "competition_ratio": 19.9
+      },
+      "caution": "最終合格者は実採用者数ではない。単年度の試験実績で、支援策全体の因果効果ではない。",
+      "source": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026103010"
+    },
+    {
+      "id": "national-2026",
+      "name": "国家公務員 中途採用者選考試験（就職氷河期世代）",
+      "published": "2026-11-06",
+      "year": 2026,
+      "application": "1966-04-02〜1986-04-01生まれ等",
+      "phase": "第2次選考中・最終合格発表予定2026-11-18",
+      "planned": null,
+      "applications": null,
+      "final_pass": null,
+      "caution": "選考継続中。採用確定数を未確定のまま表示しない。",
+      "source": "https://www.jinji.go.jp/saiyo/siken/senkou/hyougaki.html"
+    }
+  ]
+}
