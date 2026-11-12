@@ -34,6 +34,12 @@ def main():
  ok(all(x['participating_project'] for x in partners['municipalities']),'partner missing project')
  ok(len(kpi['kpis'])==29,'KPI count')
  ok(len(history['brackets'])==15 and len(history['records'])==180,'2002-2012-2022 income history incomplete')
+ for yr in (2002,2012,2022):
+  for age in ("20～24歳","25～29歳","30～34歳","35～39歳","40～44歳","45～49歳","50～54歳","55～59歳","60～64歳","65～69歳"):
+   for job in ("all","regular"):
+    rec=lambda sex: next(x for x in history["records"] if x["year"]==yr and x["age"]==age and x["employment"]==job and x["sex"]==sex)
+    ok(abs(rec("all")["total_people"]-rec("male")["total_people"]-rec("female")["total_people"])<=2000,f"sex total mismatch {yr} {age} {job}")
+
  for rec in history['records']:
   ok(len(rec['people_by_bracket'])==15,'historical income brackets invalid')
   ok(sum(rec['people_by_bracket'])==rec['known_income_people'],'historical income known total mismatch')
