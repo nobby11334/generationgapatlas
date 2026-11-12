@@ -58,7 +58,7 @@ def main():
     age=normalize_age(sheet.cell_value(6,7))
     if age not in AGES or age in processed:continue
     processed.add(age)
-    for sex,col in ([("all",9),("male",16),("female",23)] if year==2002 else [("all",9),("male",19),("female",28)]):
+    for sex,col in ([("all",9),("male",16),("female",23)] if year==2002 else [("all",9),("male",18),("female",27)]):
      for employment,total,known,unknown,values in blocks(sheet,year,col):
       if total<=0:continue
       records.append({"year":year,"age":age,"sex":sex,"employment":employment,
