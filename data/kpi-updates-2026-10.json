@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-10-27",
+  "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/suishin_platform/dai8/shiryo04.pdf",
+  "page_numbers_note": "PDFのページ番号（表紙を1頁として数える）。",
+  "update_type": "2026年10月27日公表の数値のうち、PDFテキストで名称・時点・分母を識別できた項目のみ構造化。読み取りが曖昧な欄は対象外。",
+  "updates": [
+    {
+      "id": "train-basic",
+      "kpi": "求職者支援訓練・基礎コース修了3か月後の就職率",
+      "previous": 60.9,
+      "current": 59.5,
+      "unit": "%",
+      "previous_period": "2024年度",
+      "period": "2025年度暫定値",
+      "target": 60,
+      "target_period": "2026年度",
+      "page": 4
+    },
+    {
+      "id": "train-practical",
+      "kpi": "求職者支援訓練・実践コース修了3か月後の就職率",
+      "previous": 62.4,
+      "current": 63.6,
+      "unit": "%",
+      "previous_period": "2024年度",
+      "period": "2025年度暫定値",
+      "target": 63,
+      "target_period": "2026年度",
+      "page": 4
+    },
+    {
+      "id": "lonely-40",
+      "kpi": "困ったとき頼れる人がいない40〜49歳",
+      "previous": 8.5,
+      "current": 11.9,
+      "unit": "%",
+      "previous_period": "2024年",
+      "period": "2025年",
+      "target": null,
+      "target_period": null,
+      "page": 5
+    },
+    {
+      "id": "lonely-50",
+      "kpi": "困ったとき頼れる人がいない50〜59歳",
+      "previous": 11,
+      "current": 11.2,
+      "unit": "%",
+      "previous_period": "2024年",
+      "period": "2025年",
+      "target": null,
+      "target_period": null,
+      "page": 5
+    },
+    {
+      "id": "residential",
+      "kpi": "高齢期の暮らしを支える住宅数",
+      "previous": 108,
+      "current": 110,
+      "unit": "万戸",
+      "previous_period": "2023年",
+      "period": "2024年",
+      "target": 150,
+      "target_period": "2035年",
+      "page": 6
+    },
+    {
+      "id": "financial-plan-education",
+      "kpi": "金融教育受講前後の生活設計意向の変化",
+      "previous": 3.7,
+      "current": 2,
+      "unit": "ポイント",
+      "previous_period": "2025年3月",
+      "period": "2026年3月",
+      "target": 10,
+      "target_period": "目標（時期は原資料参照）",
+      "page": 6
+    }
+  ],
+  "important_differences": [
+    "訓練修了者の就職率は支援対象者全体の就職率ではない。",
+    "孤独に関する指標は調査設計の影響を受ける年齢別比率で、政策効果は判定できない。",
+    "住宅ストックは支援施策だけの効果ではない。"
+  ]
+}
