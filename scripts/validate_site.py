@@ -33,7 +33,7 @@ def main():
  ok(len(report['documents'])==15,'October meeting 15 documents')
  ok(len(market['records'])==26,'graduate hiring 26 years')
  ok([r['year'] for r in market['records']]==list(range(1987,2013)),'graduate hiring gap')
- ok(len(cohorts['cohorts'])==4 and all(len(c['values'])==len(cohorts['age_groups']) for c in cohorts['cohorts']),'wages cohort shape')
+ ok(len(cohorts['cohorts'])==5 and all(len(c['values'])==len(cohorts['age_groups']) for c in cohorts['cohorts']),'wages cohort shape')
  ok(len(ages['historical_years'])==11 and all(len(v)==11 for v in ages['regular_by_age'].values()),'employment age time series incomplete')
  ok(len(latest['updates'])>=6,'2026 follow-up updates missing')
  ok(len(assets['data'])>=5,'household asset age bands missing')
