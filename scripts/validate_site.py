@@ -11,6 +11,8 @@ def main():
  grant=load('local-grants-2026.json')
  partners=load('wide-area-partners-2026.json')
  kpi=load('kpis.json')
+ first=load('first-job-cohorts.json')
+ pension=load('pension-cohort-projections.json')
  original_pages=load('official-kpi-pages-2026-10.json')
  funding=load('funding.json')
  measures=load('measures-2026.json')
@@ -29,6 +31,8 @@ def main():
  ok(len(set(x['municipality'] for x in partners['municipalities']))==207,'partner duplicates')
  ok(all(x['participating_project'] for x in partners['municipalities']),'partner missing project')
  ok(len(kpi['kpis'])==29,'KPI count')
+ ok(len(first['eras'])==5 and all(len(x['regular'])==5 and len(x['nonregular'])==5 for x in first['eras']),'first job cohorts invalid')
+ ok(len(pension['rows'])==3,'pension cohorts invalid')
  ok(len(original_pages['pages'])==8,'latest report missing page')
  ok(len(funding['entries'])==29,'budget count')
  ok(len(measures['measures'])==28,'measure count')
@@ -41,13 +45,13 @@ def main():
  ok(len(assets['data'])>=5,'household asset age bands missing')
  ok(len(wages['rows'])>=10,'2024 salary ages missing')
  ok(len(cases['cases'])>=2,'policy-case count')
- paths=['age-band-regular-employment','wages','household-assets','graduate-market','wages-2024-cross-section','policy-case-studies','kpi-updates-2026-10','october-2026-official-documents','local-grants-2026','wide-area-partners-2026','kpis','funding','measures-2026','employment-history','source-register','official-kpi-pages-2026-10']
+ paths=['age-band-regular-employment','wages','household-assets','graduate-market','wages-2024-cross-section','policy-case-studies','kpi-updates-2026-10','october-2026-official-documents','local-grants-2026','wide-area-partners-2026','kpis','funding','measures-2026','employment-history','source-register','official-kpi-pages-2026-10','first-job-cohorts','pension-cohort-projections']
  html=(ROOT/'index.html').read_text(encoding='utf-8')
  for p in paths:
   ok((ROOT/'data'/f'{p}.json').exists(),f'file missing {p}')
   ok(p in html or p in ('employment-history','source-register'),f'no frontend reference {p}')
  js=re.findall(r'<script>(.*?)</script>',html,re.DOTALL)
- ok(len(js)>=8,'script blocks missing')
+ ok(len(js)>=9,'script blocks missing')
  if subprocess.run(['node','--version'],capture_output=True).returncode==0:
   with tempfile.TemporaryDirectory() as temp:
    for i,source in enumerate(js):
