@@ -11,6 +11,7 @@ def main():
  grant=load('local-grants-2026.json')
  partners=load('wide-area-partners-2026.json')
  kpi=load('kpis.json')
+ original_pages=load('official-kpi-pages-2026-10.json')
  funding=load('funding.json')
  measures=load('measures-2026.json')
  report=load('october-2026-official-documents.json')
@@ -28,6 +29,7 @@ def main():
  ok(len(set(x['municipality'] for x in partners['municipalities']))==207,'partner duplicates')
  ok(all(x['participating_project'] for x in partners['municipalities']),'partner missing project')
  ok(len(kpi['kpis'])==29,'KPI count')
+ ok(len(original_pages['pages'])==8,'latest report missing page')
  ok(len(funding['entries'])==29,'budget count')
  ok(len(measures['measures'])==28,'measure count')
  ok(len(report['documents'])==15,'October meeting 15 documents')
@@ -39,7 +41,7 @@ def main():
  ok(len(assets['data'])>=5,'household asset age bands missing')
  ok(len(wages['rows'])>=10,'2024 salary ages missing')
  ok(len(cases['cases'])>=2,'policy-case count')
- paths=['age-band-regular-employment','wages','household-assets','graduate-market','wages-2024-cross-section','policy-case-studies','kpi-updates-2026-10','october-2026-official-documents','local-grants-2026','wide-area-partners-2026','kpis','funding','measures-2026','employment-history','source-register']
+ paths=['age-band-regular-employment','wages','household-assets','graduate-market','wages-2024-cross-section','policy-case-studies','kpi-updates-2026-10','october-2026-official-documents','local-grants-2026','wide-area-partners-2026','kpis','funding','measures-2026','employment-history','source-register','official-kpi-pages-2026-10']
  html=(ROOT/'index.html').read_text(encoding='utf-8')
  for p in paths:
   ok((ROOT/'data'/f'{p}.json').exists(),f'file missing {p}')
