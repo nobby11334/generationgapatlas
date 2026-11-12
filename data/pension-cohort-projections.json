@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-11-12",
+  "source": "https://www.mhlw.go.jp/content/12401000/001362107.pdf",
+  "kind": "政府年金部会のモデル推計、個人別実測ではない",
+  "scenario": "2024年年金財政検証・過去30年ケース（出典資料の表1）",
+  "rows": [
+    {
+      "birth": "1959年度",
+      "age65": "2024年度",
+      "coverageYears": 41,
+      "modelPensionManMonthly": 22.63,
+      "averageMaleManMonthly": 14.95,
+      "averageFemaleManMonthly": 9.3,
+      "under7MalePct": 11,
+      "under7FemalePct": 25
+    },
+    {
+      "birth": "1974年度",
+      "age65": "2039年度",
+      "coverageYears": 43.6,
+      "modelPensionManMonthly": 21.68,
+      "averageMaleManMonthly": 14.13,
+      "averageFemaleManMonthly": 9.78,
+      "under7MalePct": 11,
+      "under7FemalePct": 25
+    },
+    {
+      "birth": "1994年度",
+      "age65": "2059年度",
+      "coverageYears": 44.3,
+      "modelPensionManMonthly": 21.29,
+      "averageMaleManMonthly": 14.73,
+      "averageFemaleManMonthly": 10.66,
+      "under7MalePct": 7,
+      "under7FemalePct": 19
+    }
+  ],
+  "notes": [
+    "モデル年金額と男女別の平均年金額は異なる系列。",
+    "加入期間の将来延長によって年金額の見かけ上の差が小さくなる場合がある。",
+    "単純な世代順位付けや失われた年金額の確定には用いない。"
+  ],
+  "assumption_years": "社会保険加入年数は将来予測を含む。"
+}
