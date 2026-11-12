@@ -73,6 +73,227 @@
       "audience": "氷河期世代を含む幅広い人材・障害者支援・育成就労制度等",
       "source": "https://www.mof.go.jp/public_relations/finance/202605/202605d.html",
       "note": "上記個別施策と内包・重複し得る。氷河期専用予算ではない。"
+    },
+    {
+      "id": "2026-related-1",
+      "name": "オンライン職業訓練の全国化",
+      "amount_oku": 10.1,
+      "kind": "2026年度施策集記載・継続・拡充・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "非正規雇用者等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-2",
+      "name": "求職者支援訓練",
+      "amount_oku": 109.5,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "求職者",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-3",
+      "name": "人材開発支援助成金（正規転換訓練等）",
+      "amount_oku": 539,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "訓練を実施する事業主",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-4",
+      "name": "指定講座の質改善等",
+      "amount_oku": 4.9,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "教育訓練・指定講座",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-5",
+      "name": "専門学校等の職業人材育成モデル形成",
+      "amount_oku": 4.1,
+      "kind": "2026年度施策集記載・新規",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "専門学校等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-6",
+      "name": "経験交流・キャリアプラン塾等",
+      "amount_oku": 42.2,
+      "kind": "2026年度施策集記載・拡充・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "中高年齢層・企業",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-7",
+      "name": "トライアル雇用助成金（一般トライアルコース）",
+      "amount_oku": 2.8,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "試行雇用の事業主",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-8",
+      "name": "特定求職者雇用開発助成金（中高年齢安定雇用支援コース）",
+      "amount_oku": 29,
+      "kind": "2026年度施策集記載・継続",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "中高年齢者の雇用を支援",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-9",
+      "name": "特定求職者雇用開発助成金（生活保護受給者等コース）",
+      "amount_oku": 0.4,
+      "kind": "2026年度施策集記載・新規・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "生活保護受給者等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-10",
+      "name": "キャリアアップ助成金",
+      "amount_oku": 524.4,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "非正規から正規転換等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-11",
+      "name": "育児・介護休業法の普及定着",
+      "amount_oku": 3.4,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "企業の介護両立支援",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-12",
+      "name": "両立支援等助成金（介護離職防止）",
+      "amount_oku": 18.2,
+      "kind": "2026年度施策集記載・拡充・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "介護離職防止",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-13",
+      "name": "地域介護サービス・家族介護者への相談",
+      "amount_oku": 1807,
+      "kind": "2026年度施策集記載・拡充・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "介護サービス等（広い一般制度）",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-14",
+      "name": "国家公務員中途採用者選考試験（氷河期）",
+      "amount_oku": 0.1,
+      "kind": "2026年度施策集記載・新規",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "就職氷河期世代",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-15",
+      "name": "教員の中途採用・入職支援関連",
+      "amount_oku": 11.7,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "教員等",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-16",
+      "name": "就農希望者向け農業大学校講座等",
+      "amount_oku": 104,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "就農希望者",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-17",
+      "name": "農業法人等への試行就農マッチング",
+      "amount_oku": 28,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "農業",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-18",
+      "name": "農業法人の雇用環境整備",
+      "amount_oku": 13,
+      "kind": "2026年度施策集記載・2025補正・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "農業法人",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-19",
+      "name": "建設業の入職支援検討",
+      "amount_oku": 6,
+      "kind": "2026年度施策集記載・2025補正・新規・内数・再掲",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "建設業（関連施策・調査検討）",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-20",
+      "name": "物流業の入職支援検討",
+      "amount_oku": 16.05,
+      "kind": "2026年度施策集記載・継続・拡充・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "物流業",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-21",
+      "name": "地域未来交付金",
+      "amount_oku": 1600,
+      "kind": "2026年度施策集記載・継続・内数",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "地方創生一般制度",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
+    },
+    {
+      "id": "2026-related-22",
+      "name": "ひきこもり相談・支援自治体拡大",
+      "amount_oku": 15,
+      "kind": "2026年度施策集記載・拡充",
+      "fiscal_year": "2026年度関連施策",
+      "audience": "地域でのひきこもり相談支援",
+      "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-2.pdf",
+      "note": "2026年4月10日の関連施策集に掲載。氷河期世代のみの支出とは限らず、他施策と重複する内数がある。事業の執行額・決算額ではない。"
     }
-  ]
+  ],
+  "notes": "関連施策集の「内数」「再掲」「広い一般制度」を含む。合算禁止。"
 }
