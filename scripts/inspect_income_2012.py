@@ -12,3 +12,9 @@ for year,url in urls.items():
     vals=[f"{j}:{str(sheet.cell_value(i,j))[:55]}" for j in range(min(sheet.ncols,18)) if sheet.cell_value(i,j) not in ("",None)]
     if vals and (i>=60 or i in (6,8,9,10,13,14,29,30,31,32,46,47,48,49)):print("ROW",i," ".join(vals[:13])[:350])
  except Exception as e:print("ERROR",year,str(e))
+
+for u in ["https://www.e-stat.go.jp/stat-search/file-download?statInfId=000021291516&fileKind=0"]:
+ b=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=40).read();book=xlrd.open_workbook(file_contents=b)
+ for sheet in [book.sheet_by_index(3),book.sheet_by_index(8)]:
+  print("HEADERS",sheet.name,repr(sheet.cell_value(6,7)))
+  for rn in [8,9,10,13,64]:print("FULL",rn,[(i,str(sheet.cell_value(rn,i))[:38]) for i in range(9,38)])
