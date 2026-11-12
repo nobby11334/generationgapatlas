@@ -12,6 +12,7 @@ def main():
  partners=load('wide-area-partners-2026.json')
  kpi=load('kpis.json')
  first=load('first-job-cohorts.json')
+ income=load('income-distribution-2022.json')
  pension=load('pension-cohort-projections.json')
  original_pages=load('official-kpi-pages-2026-10.json')
  funding=load('funding.json')
@@ -31,6 +32,11 @@ def main():
  ok(len(set(x['municipality'] for x in partners['municipalities']))==207,'partner duplicates')
  ok(all(x['participating_project'] for x in partners['municipalities']),'partner missing project')
  ok(len(kpi['kpis'])==29,'KPI count')
+ ok(len(income['brackets'])==16 and len(income['records'])==90,'income distribution 90 series of 16 brackets missing')
+ for item in income['records']:
+  ok(len(item['people_by_bracket'])==16,'income brackets inconsistent')
+  ok(sum(item['people_by_bracket'])==item['known_income_people'],'income group mismatch')
+  ok(item['known_income_people']+item['unknown_income_people']==item['total_people'],'income unknown denominator mismatch')
  ok(len(first['eras'])==5 and all(len(x['regular'])==5 and len(x['nonregular'])==5 for x in first['eras']),'first job cohorts invalid')
  ok(len(pension['rows'])==3,'pension cohorts invalid')
  ok(len(original_pages['pages'])==8,'latest report missing page')
@@ -45,7 +51,7 @@ def main():
  ok(len(assets['data'])>=5,'household asset age bands missing')
  ok(len(wages['rows'])>=10,'2024 salary ages missing')
  ok(len(cases['cases'])>=2,'policy-case count')
- paths=['age-band-regular-employment','wages','household-assets','graduate-market','wages-2024-cross-section','policy-case-studies','kpi-updates-2026-10','october-2026-official-documents','local-grants-2026','wide-area-partners-2026','kpis','funding','measures-2026','employment-history','source-register','official-kpi-pages-2026-10','first-job-cohorts','pension-cohort-projections']
+ paths=['age-band-regular-employment','wages','household-assets','graduate-market','wages-2024-cross-section','policy-case-studies','kpi-updates-2026-10','october-2026-official-documents','local-grants-2026','wide-area-partners-2026','kpis','funding','measures-2026','employment-history','source-register','official-kpi-pages-2026-10','first-job-cohorts','pension-cohort-projections','income-distribution-2022']
  html=(ROOT/'index.html').read_text(encoding='utf-8')
  for p in paths:
   ok((ROOT/'data'/f'{p}.json').exists(),f'file missing {p}')
