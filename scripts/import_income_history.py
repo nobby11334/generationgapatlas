@@ -58,7 +58,7 @@ def main():
     age=normalize_age(sheet.cell_value(6,7))
     if age not in AGES or age in processed:continue
     processed.add(age)
-    for sex,col in ([("all",9),("male",16),("female",23)] if year==2002 else [("all",9),("male",19),("female",29)]):
+    for sex,col in ([("all",9),("male",16),("female",23)] if year==2002 else [("all",9),("male",19),("female",28)]):
      for employment,total,known,unknown,values in blocks(sheet,year,col):
       if total<=0:continue
       records.append({"year":year,"age":age,"sex":sex,"employment":employment,
@@ -79,6 +79,14 @@ def main():
      if not any(r["year"]==year and r["age"]==age and r["sex"]==sex and r["employment"]==job for r in records):
       raise RuntimeError(f"Missing {year} {age} {sex} {job}")
  if len(records)!=180:raise RuntimeError(f"Expected 180 disaggregated records, found {len(records)}")
+ for year in (2002,2012,2022):
+  for age in AGES:
+   for employment in ("all","regular"):
+    ar=next(r for r in records if r["year"]==year and r["age"]==age and r["sex"]=="all" and r["employment"]==employment)
+    mr=next(r for r in records if r["year"]==year and r["age"]==age and r["sex"]=="male" and r["employment"]==employment)
+    fr=next(r for r in records if r["year"]==year and r["age"]==age and r["sex"]=="female" and r["employment"]==employment)
+    if abs(ar["total_people"]-mr["total_people"]-fr["total_people"])>2000:raise RuntimeError(f"Sex sum mismatch {year} {age} {employment}")
+
  doc={"dataset":"2002, 2012, 2022 Japan Employment Status Survey, national 15-bin distributions",
       "years":[2002,2012,2022],"brackets":BINS,"records":records,
       "scope":"有業者と正規の職員・従業員。年齢10区分×性3区分×雇用2区分×調査3時点。",
