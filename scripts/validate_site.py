@@ -11,6 +11,7 @@ def main():
  grant=load('local-grants-2026.json')
  partners=load('wide-area-partners-2026.json')
  kpi=load('kpis.json')
+ income_distribution=load('income-distribution-2022-national.json')
  first=load('first-job-cohorts.json')
  income=load('income-distribution-2022.json')
  history=load('income-distribution-history.json')
@@ -33,6 +34,9 @@ def main():
  ok(len(set(x['municipality'] for x in partners['municipalities']))==207,'partner duplicates')
  ok(all(x['participating_project'] for x in partners['municipalities']),'partner missing project')
  ok(len(kpi['kpis'])==29,'KPI count')
+ ok(len(income_distribution['bands'])==13,'income band count')
+ ok(sum(b['persons'] for b in income_distribution['bands'])==income_distribution['known_income_persons'],'income band subtotal')
+ ok(income_distribution['known_income_persons']+income_distribution['unknown_income_persons']==income_distribution['total_persons'],'income unknown income accounting')
  ok(len(history['brackets'])==15 and len(history['records'])==180,'2002-2012-2022 income history incomplete')
  for yr in (2002,2012,2022):
   for age in ("20～24歳","25～29歳","30～34歳","35～39歳","40～44歳","45～49歳","50～54歳","55～59歳","60～64歳","65～69歳"):
@@ -69,7 +73,7 @@ def main():
   ok((ROOT/'data'/f'{p}.json').exists(),f'file missing {p}')
   ok(p in html or p in ('employment-history','source-register'),f'no frontend reference {p}')
  js=re.findall(r'<script>(.*?)</script>',html,re.DOTALL)
- ok(len(js)>=9,'script blocks missing')
+ ok(len(js)>=10,'script blocks missing')
  if subprocess.run(['node','--version'],capture_output=True).returncode==0:
   with tempfile.TemporaryDirectory() as temp:
    for i,source in enumerate(js):
