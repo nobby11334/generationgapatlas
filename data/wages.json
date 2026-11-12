@@ -1,27 +1,25 @@
 {
   "as_of": "2026-11-12",
-  "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/dai3/siryou1-3.pdf",
+  "source": "https://www.cas.go.jp/jp/seisaku/shushoku_hyogaki_shien/kankeikakuryokaigi/pdf/20260410_siryou4.pdf",
   "unit": "千円/月・2020年基準実質賃金",
   "population": "男性一般労働者・きまって支給する給与（短時間労働者等を除く）",
-  "warning": "全労働者、女性、非正規を含む世代の生涯所得を意味しない。出生年群と年齢階級は一部未観測。",
+  "warning": "原典の図示値のみを収録。55〜59歳時の数値は原典図に無いため削除した。男性一般労働者の月例賃金であり、世代全員の生涯所得ではない。",
   "age_groups": [
     "30〜34",
     "35〜39",
     "40〜44",
     "45〜49",
-    "50〜54",
-    "55〜59"
+    "50〜54"
   ],
   "cohorts": [
     {
       "name": "1966〜1970年生まれ",
       "values": [
-        351,
+        353,
         414,
         431,
         450,
-        447,
-        420
+        447
       ]
     },
     {
@@ -31,8 +29,7 @@
         385,
         408,
         419,
-        415,
-        null
+        415
       ]
     },
     {
@@ -42,7 +39,6 @@
         372,
         393,
         403,
-        null,
         null
       ]
     },
@@ -52,7 +48,6 @@
         334,
         363,
         386,
-        null,
         null,
         null
       ]
