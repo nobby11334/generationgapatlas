@@ -1,0 +1,18 @@
+name: Inspect official 2022 income distribution workbook
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/inspect_income_source.py
+      - .github/workflows/inspect-income.yml
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/inspect_income_source.py
